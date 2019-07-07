@@ -4,11 +4,7 @@ import { NgbCarouselModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
-import {
-    TimelineComponent,
-    NotificationComponent,
-    ChatComponent
-} from './components';
+import { TimelineComponent, NotificationComponent, ChatComponent} from './components';
 import { StatModule } from '../../shared';
 
 @NgModule({

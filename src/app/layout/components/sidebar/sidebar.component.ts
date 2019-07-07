@@ -28,8 +28,8 @@ export class SidebarComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.isActive = true;
-        this.collapsed = true;
+        this.isActive = false;
+        this.collapsed = false;
         this.showMenu = '';
         this.pushRightClass = 'push-right';
     }
@@ -74,4 +74,5 @@ export class SidebarComponent implements OnInit {
     onLoggedout() {
         localStorage.removeItem('isLoggedin');
     }
+
 }
